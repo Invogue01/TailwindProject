@@ -1,2 +1,0 @@
-# TailwindProject
-Data Analytics 
