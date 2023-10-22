@@ -13,15 +13,21 @@ const Hero = () => {
           <p className="md:text-5xl sm:text-4xl text-xl font-bold">
             Fast, flexible financing for{" "}
           </p>
-          <Typed className="text-[#d2c2c2] md:text-5xl sm:text-4xl text-xl font-bold"
+          <Typed
+            className="text-[#d2c2c2] md:text-5xl sm:text-4xl text-xl font-bold"
             strings={["Buyer to Buyer, Buyer to Customer, SASS"]}
             typeSpeed={20}
             backSpeed={30}
             loop
           />
         </div>
-        <p className="md:text-2xl text-xl font-bold text-gray-500">Monitor your data analytics to increase revenue for BTB, BTC, SASS platforms </p>
-        <button className="bg-[#00df9a] w-[170px] rounded-md font-medium my-6 mx-auto py-3 text-black ">Get Started</button>
+        <p className="md:text-2xl text-xl font-bold text-gray-500">
+          Monitor your data analytics to increase revenue for BTB, BTC, SASS
+          platforms{" "}
+        </p>
+        <button className="bg-[#00df9a] w-[170px] rounded-md font-medium my-6 mx-auto py-3 text-black ">
+          Get Started
+        </button>
       </div>
     </div>
   );
