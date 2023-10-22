@@ -1,11 +1,15 @@
 import React from "react"
 import Navbar from "./components/navbar"
+import Hero from "./components/Hero"
+import Analytics from "./components/Analytics";
 
 
 function App() {
   return (
     <div>
-<Navbar/>  
+<Navbar/> 
+<Hero/>
+<Analytics/>
 
     </div>
   );
